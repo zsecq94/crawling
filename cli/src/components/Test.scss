@@ -1,0 +1,34 @@
+.test-main {
+    margin-top: 2rem;
+    .test-card-main {
+      margin-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+        .test-card-card {
+            margin: 20px;
+            img {
+                object-fit: cover;
+            }
+            a:link {
+                color : pink;
+                text-decoration: none;
+              }
+            a:visited {
+              color : white;
+              text-decoration: none;
+            }
+            a:hover {
+              color : red;
+              text-decoration: underline;
+            }
+            a:active {
+              color : green;
+              text-decoration: none;
+            }
+        }
+    }
+    
+}
+
